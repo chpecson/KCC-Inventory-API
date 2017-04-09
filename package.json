@@ -1,0 +1,25 @@
+{
+  "name": "kcc-inventory-system",
+  "version": "1.0.0",
+  "description": "A MEAN app to trackk all the items around KCC",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcrypt": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "nodemon": "*"
+  },
+  "author": "Christian Pecson <chpecson@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.4.0"
+  }
+}
